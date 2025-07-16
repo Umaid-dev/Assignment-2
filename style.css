@@ -1,0 +1,39 @@
+/* global styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0fff0;
+}
+
+h1 {
+  color: #4b0082;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px; /* rounded corners */
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* labels and legend styled inside the form  */
+label, legend {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #4b0082;    
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+img {
+  display: block; 
+  margin: 10px 0; /* space belwo and above the image */
+}
